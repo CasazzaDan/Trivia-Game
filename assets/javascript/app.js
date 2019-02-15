@@ -91,8 +91,20 @@ function timer() {
 //=====================================================
 // change question function
 
+// create a for loop to go thru the array of questions
+// append the the chosen question to the div so that it displays for the played on the DOM
+// after an answer is selected and the answer is checked, display the next question in the array
+
+
 //=====================================================
 // check answer function
 
+// create a for loop to go thru the answer array inside the question object
+// compare the string of the selected answer to the correct answer in the array
+// add the score to the correct or incorrect tally depending the results of the check 
+
 //=======================================================
 // Restart function
+
+// Set all the tallys, timer, and question array back to defaults 
+// Display Start screen
